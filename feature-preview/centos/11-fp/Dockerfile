@@ -1,0 +1,9 @@
+FROM centos:7
+
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
+
+RUN rpm --import https://repos.azul.com/azul-repo.key && \
+    curl -o /etc/yum.repos.d/zing.repo https://repos.azul.com/zing-fp/rhel/zing.repo && \
+    yum install -y zing-jdk11.0.0-fp
