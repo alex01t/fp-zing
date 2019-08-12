@@ -42,11 +42,11 @@ To run a container of your choice, use commands below as an example.
 
 For a Zing 11 container, enter:
 
-    docker run -it --rm azul/zing-fp/ubuntu:11 java -version
+    docker run -it --rm azulfeaturepreview/zing-fp:11 java -version
 
 For a Zing 8 container, enter:
 
-    docker run -it --rm azul/zing-fp/ubuntu:8 java -version
+    docker run -it --rm azulfeaturepreview/zing-fp:8 java -version
 
 
   [1]: https://www.azul.com/files/ZuluDocker60.gif
