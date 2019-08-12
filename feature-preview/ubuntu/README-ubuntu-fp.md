@@ -16,9 +16,9 @@ At any time you can post your questions at the [Zing Community Forum][8].
 
 Centos, Debian, and Ubuntu Docker images of Zing are available in the following repositories:
 
-  * [azul/fp-zing/feature-preview/zing-centos][5]
-  * [azul/fp-zing/feature-preview/zing-debian][6]
-  * [azul/fp-zing/feature-preview/zing-ubuntu][7]
+  * [azulfeaturepreview/zing-fp-centos][5]
+  * [azulfeaturepreview/zing-fp-debian][6]
+  * [azulfeaturepreview/zing-fp][7]
 
 Tags and `Dockerfile` links
 ===========================
@@ -26,7 +26,7 @@ Tags and `Dockerfile` links
 Most Recent
 -----------
 
-The Zing azul/fp-zing/feature-preview/zing-ubuntu repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
+The Zing azulfeaturepreview/zing-fp repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
 
  * [ `11` (*Dockerfile*)][84]
 
@@ -52,9 +52,9 @@ For a Zing 8 container, enter:
   [1]: https://www.azul.com/files/ZuluDocker60.gif
   [2]: http://www.azul.com/zulu
   [3]: https://www.azul.com/products/zing/
-  [5]: https://hub.docker.com/r/azul/fp-zing/feature-preview/zing-centos
-  [6]: https://hub.docker.com/r/azul/fp-zing/feature-preview/zing-debian
-  [7]: https://hub.docker.com/r/azul/fp-zing/feature-preview/zing-ubuntu
+  [5]: https://hub.docker.com/r/azulfeaturepreview/zing-fp-centos
+  [6]: https://hub.docker.com/r/azulfeaturepreview/zing-fp-debian
+  [7]: https://hub.docker.com/r/azulfeaturepreview/zing-fp
   [8]: https://support.azul.com/hc/en-us/community/topics/200490266-Zing-Downloads-and-Evaluations
   
   [53]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/8u222-8.40.0.25/Dockerfile
