@@ -11,7 +11,7 @@ Check out [Zing Overview][3] for more information.
 
 Azul provides access to feature previews of Zing® in order to collect early feedback and enable testing of various applications in development environments. The Zing preview package is updated on a weekly basis and is an in-development feature preview version that might be unstable or not performing. Azul undertakes reasonable effort to ensure acceptable quality of the bits. Zing preview builds are not supported and must not be used in production.
 
-At any time you can post your questions at the [Zing Community Forum][8] or [send us your feedback][9].
+At any time you can post your questions at the [Zing Community Forum][8].
 
 
 Centos, Debian, and Ubuntu Docker images of Zing are available in the following repositories:
@@ -56,6 +56,6 @@ For a Zing 8 container, enter:
   [6]: https://hub.docker.com/r/azul/fp-zing/feature-preview/zing-debian
   [7]: https://hub.docker.com/r/azul/fp-zing/feature-preview/zing-ubuntu
   [8]: https://support.azul.com/hc/en-us/community/topics/200490266-Zing-Downloads-and-Evaluations
-  [9]: zing-fp-feedback@azul.com
+  
   [53]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/8u222-8.40.0.25/Dockerfile
   [84]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/11.0.4-11.33/Dockerfile
