@@ -26,7 +26,7 @@ Tags and `Dockerfile` links
 Most Recent
 -----------
 
-The Zing azul/fp-zing repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
+The Zing azul/fp-zing/feature-preview/zing-debian repository provides various Debian Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
 
  * [ `11` (*Dockerfile*)][84]
 
