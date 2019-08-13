@@ -42,20 +42,20 @@ To run a container of your choice, use commands below as an example.
 
 For a Zing 11 container, enter:
 
-    docker run -it --rm azulfeaturepreview/zing-fp:11 java -version
+    docker run -it --rm azulfeaturepreview/zing-fp:11 /opt/zing/zing-jdk11-fp/bin/java -version
 
 For a Zing 8 container, enter:
 
-    docker run -it --rm azulfeaturepreview/zing-fp:8 java -version
+    docker run -it --rm azulfeaturepreview/zing-fp:8 /opt/zing/zing-jdk8-fp/bin/java -version
 
 
   [1]: https://www.azul.com/files/ZuluDocker60.gif
-  [2]: http://www.azul.com/zulu
+  [2]: http://www.azul.com/zing
   [3]: https://www.azul.com/products/zing/
   [5]: https://hub.docker.com/r/azulfeaturepreview/zing-fp-centos
   [6]: https://hub.docker.com/r/azulfeaturepreview/zing-fp-debian
   [7]: https://hub.docker.com/r/azulfeaturepreview/zing-fp
   [8]: https://support.azul.com/hc/en-us/community/topics/200490266-Zing-Downloads-and-Evaluations
   
-  [53]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/8u222-8.40.0.25/Dockerfile
-  [84]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/11.0.4-11.33/Dockerfile
+  [53]: https://github.com/alex01t/fp-zing/blob/master/feature-preview/ubuntu/8/Dockerfile
+  [84]: https://github.com/alex01t/fp-zing/blob/master/feature-preview/ubuntu/11/Dockerfile
